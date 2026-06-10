@@ -1,4 +1,15 @@
-﻿#include <iostream>
+﻿
+/**
+*
+* 
+* 
+* 
+* зачем
+* 
+* 
+*/
+
+#include <iostream>
 #include <string>
 #include <locale>
 #include <fcntl.h>
