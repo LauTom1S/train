@@ -7,7 +7,7 @@
 #include <limits>
 using namespace std;
 /**
-* @brief MASTER ветка
+* @brief MASTER ветка 1
 *
 */
 
