@@ -1,15 +1,4 @@
-﻿
-/**
-*
-* 
-* 
-* 
-* зачем
-* 
-* 
-*/
-
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <locale>
 #include <fcntl.h>
@@ -17,6 +6,13 @@
 #include <regex>
 #include <limits>
 using namespace std;
+/**
+* @file lab3_2.cpp
+*
+*/
+
+
+
 
 /**
  * @brief Структура, описывающая студента и сведения о его участии в мероприятии.
@@ -57,14 +53,16 @@ int takeCriterion(const wstring a) {
     else if (a == L"0") { return 0; }
     else { return -1; }
 }
+
 /**
+* @class List
 * @brief Двунаправленный список с произвольным типом хранимых данных
-* 
+*
 * @details Класс, в котором каждый узел хранит 3 секции:
 *   - ссылку на предыдущий элемент
 *   - данные (studentMASH)
 *   - ссылку на следующий элемент
-*   
+*
 *   Реализованы методы по:
 *   - вставке элемента в конец (push_back) и в начало (push_front)
 *   - удаление элемента в конце (pop_back) и в начале (pop_front)
@@ -74,6 +72,7 @@ int takeCriterion(const wstring a) {
 template<typename T>
 class List
 {
+    
 public:
     /**
      * @brief Конструктор двусвязного списка.
@@ -368,7 +367,6 @@ int main()
     List<studentsMASH> lst; ///< Список студентов, участвующих в мероприятиях.
 
     int choise; ///< Выбор действия пользователем из меню (0–5).
-    int item;   ///< Лишний переменный, в текущем коде не используется.
     int index;  ///< Индекс элемента для удаления или поиска.
 
     studentsMASH student; ///< Объект студента для добавления в список.
