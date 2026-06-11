@@ -7,7 +7,7 @@
 #include <limits>
 using namespace std;
 /**
-* @brief lab3_2
+* @brief MASTER ветка
 *
 */
 
