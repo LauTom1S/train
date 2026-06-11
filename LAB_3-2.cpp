@@ -1,15 +1,4 @@
-﻿
-/**
-*
-* 
-* 
-* 
-* зачем
-* 
-* 
-*/
-
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <locale>
 #include <fcntl.h>
@@ -17,6 +6,11 @@
 #include <regex>
 #include <limits>
 using namespace std;
+/**
+*
+*
+*
+*/
 
 /**
  * @brief Структура, описывающая студента и сведения о его участии в мероприятии.
