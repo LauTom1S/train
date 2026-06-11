@@ -7,7 +7,7 @@
 #include <limits>
 using namespace std;
 /**
-* @brief Файл lab3_2.cpp
+* @brief Структуры
 *
 */
 
