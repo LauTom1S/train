@@ -6,8 +6,11 @@
 #include <regex>
 #include <limits>
 using namespace std;
+
+
 /**
-* @brief MASTER ветка 1
+* 
+* 
 *
 */
 
@@ -54,7 +57,13 @@ int takeCriterion(const wstring a) {
     else { return -1; }
 }
 
-
+/**
+*
+*
+*
+*
+*
+*/
 template<typename T>
 class List
 {
